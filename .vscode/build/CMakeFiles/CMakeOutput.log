@@ -1,0 +1,55 @@
+The system is: Windows - 10.0.19043 - AMD64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.28.29910/bin/Hostx64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.28.29913.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/djele/Documents/1 ELTE/1 Doktori/3.félév/GPU 2/GPU_course/.vscode/build/CMakeFiles/3.19.20122902-MSVC_2/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/djele/Documents/1 ELTE/1 Doktori/3.félév/GPU 2/GPU_course/.vscode/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MIB055~1/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_95b82 && [1/2] Building CXX object CMakeFiles\cmTC_95b82.dir\CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_95b82.exe
+
+
+
+Determining if the CL_VERSION_2_2 exist passed with the following output:
+Change Dir: C:/Users/djele/Documents/1 ELTE/1 Doktori/3.félév/GPU 2/GPU_course/.vscode/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MIB055~1/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_91e44 && [1/2] Building CXX object CMakeFiles\cmTC_91e44.dir\CheckSymbolExists.cxx.obj
+cl_version.h: CL_TARGET_OPENCL_VERSION is not defined. Defaulting to 220 (OpenCL 2.2)
+[2/2] Linking CXX executable cmTC_91e44.exe
+
+
+File C:/Users/djele/Documents/1 ELTE/1 Doktori/3.félév/GPU 2/GPU_course/.vscode/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <C:/src/vcpkg/installed/x64-windows/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

@@ -1,0 +1,59 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "jump_flood",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "jump_flood::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jump_flood-Debug-8929dfd3df1bf3bef693.json",
+					"name" : "jump_flood",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/djele/Documents/1 ELTE/1 Doktori/3.félév/GPU 2/GPU_course/.vscode/build",
+		"source" : "C:/Users/djele/Documents/1 ELTE/1 Doktori/3.félév/GPU 2/GPU_course/jump_flood"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

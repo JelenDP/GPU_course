@@ -1,3 +1,0 @@
-C:/Users/djele/Documents/1 ELTE/1 Doktori/3.félév/GPU 2/GPU_course/.vscode/build/CMakeFiles/jump_flood.dir
-C:/Users/djele/Documents/1 ELTE/1 Doktori/3.félév/GPU 2/GPU_course/.vscode/build/CMakeFiles/edit_cache.dir
-C:/Users/djele/Documents/1 ELTE/1 Doktori/3.félév/GPU 2/GPU_course/.vscode/build/CMakeFiles/rebuild_cache.dir
